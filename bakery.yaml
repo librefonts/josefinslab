@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [JosefinSlab-ThinItalic.ttf.ttx, JosefinSlab-Thin.ttf.ttx, JosefinSlab-SemiBoldItalic.ttf.ttx,
+  JosefinSlab-SemiBold.ttf.ttx, JosefinSlab-Regular.ttf.ttx, JosefinSlab-LightItalic.ttf.ttx,
+  JosefinSlab-Light.ttf.ttx, JosefinSlab-Italic.ttf.ttx, JosefinSlab-BoldItalic.ttf.ttx,
+  JosefinSlab-Bold.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
